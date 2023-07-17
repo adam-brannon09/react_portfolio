@@ -6,7 +6,7 @@ function Header(props) {
 
     return (
         <header>
-            <h1>Adam</h1>
+            {/* Insert navbar into header and pass in properties to use {setCurrentPage} */}
             <Nav updatePage={setCurrentPage} />
         </header>
     )
