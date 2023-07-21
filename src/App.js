@@ -1,10 +1,12 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import About from './components/about';
 import Contact from './components/contact';
 import Header from './components/header';
 import Footer from './components/footer';
 import Project from './components/project';
+
+
 
 
 
@@ -24,7 +26,7 @@ function App() {
     <div className="App">
       <Header setCurrentPage={setCurrentPage} />
       {setPage()}
-      <Footer />
+      <Footer/>
     </div>
   );
 }

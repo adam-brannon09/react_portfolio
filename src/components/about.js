@@ -1,17 +1,33 @@
 import React from "react";
+import {  } from "react-icons/fa"
 
 function About() {
 
 
     return (
-        <div>
-            
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla at volutpat diam ut venenatis. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Suspendisse sed nisi lacus sed viverra tellus in hac. Eu nisl nunc mi ipsum faucibus vitae aliquet nec. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Pharetra vel turpis nunc eget lorem dolor. Odio ut enim blandit volutpat maecenas. Amet purus gravida quis blandit turpis cursus in. Fermentum iaculis eu non diam phasellus vestibulum lorem sed. Urna duis convallis convallis tellus id interdum. Diam sit amet nisl suscipit adipiscing bibendum est.
+        <div className="container tiles">
+            <section className="row">
+                <aside className="col-4">
+                    <img src="placeholder" className="img-thumbnail rounded-circle" alt="placeholder"></img>
+                </aside>
+                <article className="col">
+                    <code className="code"><p>Hi, my name is</p>
+                    <h1>  &lt;Adam Brannon&gt;.</h1>
+                        <h2>I build things for the web.</h2>
+                    </code>
+                <p>
+                    I recently graduated from a comprehensive Full Stack Web Developer bootcamp where I acquired a strong foundation in web development. My skills include HTML, CSS, JavaScript, API integration, SQL, Sequelize, Node.js, Express, MVC architecture, MongoDB, Mongoose, Progressive Web Applications, React, and the MERN stack.
 
-Nisi est sit amet facilisis magna etiam. Mauris vitae ultricies leo integer malesuada nunc vel risus commodo. Orci porta non pulvinar neque laoreet. Urna nec tincidunt praesent semper. Augue eget arcu dictum varius. Enim lobortis scelerisque fermentum dui faucibus in ornare. Massa placerat duis ultricies lacus. Sed odio morbi quis commodo odio. Bibendum at varius vel pharetra vel turpis nunc eget lorem. Risus sed vulputate odio ut. Mattis pellentesque id nibh tortor id aliquet lectus proin nibh. Semper quis lectus nulla at volutpat diam ut venenatis tellus. Tempor orci eu lobortis elementum nibh tellus molestie nunc.
+                    Passionate about crafting beautiful user interfaces and building robust web applications, I'm eager to contribute my creativity and skills to the dynamic world of web development. On this website, you'll find a showcase of my projects and code samples that demonstrate my abilities. Let's collaborate on exciting projects and create something extraordinary together!
 
-
-       </div>
+                    Thank you for visiting!
+                    </p>
+                    </article>
+            </section>
+            <section className="row">
+                
+            </section>
+        </div>
     )
 }
 

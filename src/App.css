@@ -1,23 +1,39 @@
-html,
 body {
   height: 100%;
-}
-
-.content {
-  min-height: calc(100vh - 60px); /* Adjust the value based on the footer height */
-  padding-bottom: 60px; /* Adjust the value based on the footer height */
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 90%;
-  height: 60px; /* Example */
+  margin: 0;
+  padding: 0;
   
 }
-
-.App {
-  text-align: center;
+.code {
+  color: black;
+  font-size: 1.2em;
 }
+.App {
+text-align: center;
+}
+
+.tiles{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.profile-pic{
+  /* max-width: 60%;
+  height: auto; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
