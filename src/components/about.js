@@ -8,7 +8,7 @@ function About() {
         <div className="container tiles">
             <section className="row">
                 <aside className="col-4">
-                    <img src="placeholder" className="img-thumbnail rounded-circle" alt="placeholder"></img>
+                    <img src="./assets/suit3.jpeg" className="img-thumbnail rounded-circle" alt="placeholder"></img>
                 </aside>
                 <article className="col">
                     <code className="code"><p>Hi, my name is</p>
