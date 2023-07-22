@@ -21,9 +21,21 @@ margin: 0;
 }
 
 .card-img-top{
-  
   height: 15vw;
-  
+}
+
+.depAppHead{
+  color: black;
+  font-size: 3rem;
+  margin-top: 20px;
+  margin-bottom: 50px
+}
+
+.depAppHead2{
+  color: black;
+  font-size: 3rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
   
 
