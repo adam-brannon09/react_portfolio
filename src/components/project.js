@@ -9,7 +9,7 @@ function Project() {
         <div class="container tiles portfolio-container ">
 
             <div class="row card-deck ">
-               <code><h2 className="depAppHead">Deployed Applications</h2></code>
+               <code><h2 className="depAppHead">{'{Deployed Applications}'}</h2></code>
                 
                 <div class="card col-4 bg-dark text-light rounded p-2 border border-white">
                     <a href="https://adam-brannon09.github.io/password_generator/"><img class="card-img-top" src="./assets/passwordGif.gif" alt="Card image cap"></img></a>
@@ -70,7 +70,7 @@ function Project() {
             </div>
 
             <div class="row card-deck ">
-               <code><h2 className="depAppHead2">Run Us In The CLI</h2></code>
+               <code><h2 className="depAppHead2">(Run Us In The CLI)</h2></code>
                 
                 <div class="card col-4 bg-dark text-light rounded p-2 border border-white">
                     <a href="https://github.com/adam-brannon09/readme_generator"><img class="card-img-top" src="./assets/readmeGen.gif" alt="Card image cap"></img></a>
