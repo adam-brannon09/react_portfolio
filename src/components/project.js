@@ -12,28 +12,35 @@ function Project() {
                <code><h2 className="depAppHead">{'{Deployed Applications}'}</h2></code>
                 
                 <div class="card col-4 bg-dark text-light rounded p-2 border border-white">
-                    <a href="https://adam-brannon09.github.io/password_generator/"><img class="card-img-top" src="./assets/passwordGif.gif" alt="Card image cap"></img></a>
+                    <a ><img class="card-img-top" src="./assets/passwordGif.gif" alt="Card image cap"></img></a>
                     <div class="card-body">
                         <h5 class="card-title">Password Generator</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <br></br>
+                        <button className="btn btn-lg btn-outline-light bg-dark text-light p-2 mx-2"><a className="text-light project-link" href="https://adam-brannon09.github.io/password_generator/" >Deployed App</a></button>
+                        <button className="btn btn-lg btn-outline-light bg-dark p-2 mx-2 "><a class="text-light project-link" href=""><i class="devicon-github-original"></i>To The Repo</a></button>
+
                     </div>
                 </div>
 
                 
 
                 <div class="card col-4 bg-dark text-light rounded p-2 border border-white">
-                    <a href="https://adam-brannon09.github.io/work_day_scheduler/"><img class="card-img-top" src="./assets/workDayGif.gif" alt="Card image cap"></img></a>
+                    <a ><img class="card-img-top" src="./assets/workDayGif.gif" alt="Card image cap"></img></a>
                     <div class="card-body">
                         <h5 class="card-title">Work Day Scheduler</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <br></br>
+                        <button className="btn btn-lg btn-outline-light bg-dark text-light p-2 mx-2"><a className="text-light project-link" href="https://adam-brannon09.github.io/work_day_scheduler/" >Deployed App</a></button>
+                        <button className="btn btn-lg btn-outline-light bg-dark p-2 mx-2 "><a class="text-light project-link" href=""><i class="devicon-github-original"></i>To The Repo</a></button>
                     </div>
                 </div>
 
                 <div class="card col-4 bg-dark text-light rounded p-2 border border-white">
-                   <a href="https://adam-brannon09.github.io/coding_quiz/"><img class="card-img-top" src="./assets/codeQuizGif.gif" alt="Card image cap"></img></a>
+                   <a ><img class="card-img-top" src="./assets/codeQuizGif.gif" alt="Card image cap"></img></a>
                     <div class="card-body">
                         <h5 class="card-title">Code Quiz</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <br></br>
+                        <button className="btn btn-lg btn-outline-light bg-dark text-light p-2 mx-2"><a className="text-light project-link" href="https://adam-brannon09.github.io/coding_quiz/" >Deployed App</a></button>
+                        <button className="btn btn-lg btn-outline-light bg-dark p-2 mx-2 "><a class="text-light project-link" href=""><i class="devicon-github-original"></i>To The Repo</a></button>
                     </div>
                 </div>
 
@@ -42,61 +49,70 @@ function Project() {
             <br></br>
 
             <div class="row card-deck justify-content-between">
-                
+                {/* Weather Forecast */}
             <div class="card col-4 bg-dark text-light rounded p-2 border border-white">
-                    <a href="https://adam-brannon09.github.io/weather_forecast_app/"><img class="card-img-top" src="./assets/weatherGif.gif" alt="Card image cap"></img></a>
+                    <a ><img class="card-img-top" src="./assets/weatherGif.gif" alt="Card image cap"></img></a>
                     <div class="card-body">
                         <h5 class="card-title">Weather Forecast App</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <br></br>
+                        <button className="btn btn-lg btn-outline-light bg-dark text-light p-2 mx-2"><a className="text-light project-link" href="https://adam-brannon09.github.io/weather_forecast_app/" >Deployed App</a></button>
+                        <button className="btn btn-lg btn-outline-light bg-dark p-2 mx-2 "><a class="text-light project-link" href=""><i class="devicon-github-original"></i>To The Repo</a></button>
                     </div>
                 </div>
-
+                {/* Moody */}
                 <div class="card col-4 bg-dark text-light rounded p-2 border border-white">
-                   <a href="https://tranquil-wildwood-45278.herokuapp.com/ "><img class="card-img-top" src="./assets/moodyGif.gif" alt="Card image cap"></img></a> 
+                   <a ><img class="card-img-top" src="./assets/moodyGif.gif" alt="Card image cap"></img></a> 
                     <div class="card-body">
                         <h5 class="card-title">Moody The 5 Minute Journal</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <br></br>
+                        <button className="btn btn-lg btn-outline-light bg-dark text-light p-2 mx-2"><a className="text-light project-link" href="https://tranquil-wildwood-45278.herokuapp.com/" >Deployed App</a></button>
+                        <button className="btn btn-lg btn-outline-light bg-dark p-2 mx-2 "><a class="text-light project-link" href=""><i class="devicon-github-original"></i>To The Repo</a></button>
                     </div>
                 </div>
-
+                {/* Note Taker */}
                 <div class="card col-4 bg-dark text-light rounded p-2 border border-white">
-                <a href="https://pure-plateau-06759-17795068f1d2.herokuapp.com/"><img class="card-img-top" src="./assets/noteTakerGif.gif" alt="Card image cap"></img></a> 
+                <img class="card-img-top" src="./assets/noteTakerGif.gif" alt="Card image cap"></img>
                     <div class="card-body">
                         <h5 class="card-title">Note Taker</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <br></br>
+                        <button className="btn btn-lg btn-outline-light bg-dark text-light p-2 mx-2"><a className="text-light project-link" href="https://pure-plateau-06759-17795068f1d2.herokuapp.com/" >Deployed App</a></button>
+                        <button className="btn btn-lg btn-outline-light bg-dark p-2 mx-2 "><a class="text-light project-link" href=""><i class="devicon-github-original"></i>To The Repo</a></button>
                     </div>
                 </div>
             
             </div>
 
-            <div class="row card-deck ">
+            {/* <div class="row card-deck ">
                <code><h2 className="depAppHead2">(Run Us In The CLI)</h2></code>
                 
                 <div class="card col-4 bg-dark text-light rounded p-2 border border-white">
-                    <a href="https://github.com/adam-brannon09/readme_generator"><img class="card-img-top" src="./assets/readmeGen.gif" alt="Card image cap"></img></a>
+                    <img class="card-img-top" src="./assets/readmeGen.gif" alt="Card image cap"></img>
                     <div class="card-body">
                         <h5 class="card-title">README.md Generator</h5>
-                        <p class="card-text">A node application that generates a quality README.md with prompt guided user input</p>
+                        <br></br>
+                        <button className="btn btn-lg btn-outline-light bg-dark p-2 mx-2 "><a className="project-link text-light" href="https://github.com/adam-brannon09/readme_generator"><i class="devicon-github-original"></i>To The Repo</a></button>
                     </div>
                 </div>
-
+                
                 <div class="card col-4 bg-dark text-light rounded p-2 border border-white">
-                    <a href="https://github.com/adam-brannon09/svg-logo-generator"><img class="card-img-top" src="./assets/logoCreator.gif" alt="Card image cap"></img></a>
+                    <img class="card-img-top" src="./assets/logoCreator.gif" alt="Card image cap"></img>
                     <div class="card-body">
                         <h5 class="card-title">Logo Creator</h5>
-                        <p class="card-text">A node application that uses prompts in the CLI to render a logo based on user input</p>
+                        <br></br>
+                        <button className="btn btn-lg btn-outline-light bg-dark p-2 mx-2 "><a className="project-link text-light" href="https://github.com/adam-brannon09/svg-logo-generator"><i class="devicon-github-original"></i>To The Repo</a></button>
                     </div>
                 </div>
-
+                
                 <div class="card col-4 bg-dark text-light rounded p-2 border border-white">
-                   <a href="https://github.com/adam-brannon09/employee_tracker"><img class="card-img-top" src="./assets/employeeDatabase.gif" alt="Card image cap"></img></a>
+                   <img class="card-img-top" src="./assets/employeeDatabase.gif" alt="Card image cap"></img>
                     <div class="card-body">
                         <h5 class="card-title">Employee Database</h5>
-                        <p class="card-text">Utilizing a SQL Database to keep track of employees, their roles, and Departments</p>
+                        <br></br>
+                        <button className="btn btn-lg btn-outline-light bg-dark p-2 mx-2 "><a className="project-link text-light " href="https://github.com/adam-brannon09/employee_tracker"><i class="devicon-github-original"></i>To The Repo</a></button>
                     </div>
                 </div>
 
-            </div>
+            </div> */}
 
 
             {/* End */}

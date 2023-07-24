@@ -1,33 +1,41 @@
 import React from "react";
-import {  } from "react-icons/fa"
+
+
 
 function Nav({ updatePage }) {
 
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark text-white fixed-top">
             <div class="container-fluid">
-                
-                    <a class="navbar-brand font-weight-bold " href="#" onClick={() => updatePage('About')}><h2>{'{AGB}'}</h2></a>
-                    
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+
+                <a class="navbar-brand font-weight-bold" href="#"><h2>{'{adamBrannon}'}</h2></a>
+
+
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item ">
-                            <h4><a class="nav-link active" aria-current="page" href="#" onClick={() => updatePage('About')}>About</a></h4>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" id="about" href="#" onClick={() => updatePage('About')}><h4>About</h4></a>
                         </li>
                         <li class="nav-item">
-                           <h4> <a class="nav-link active" href="#" onClick={() => updatePage('Project')}>Portfolio</a>  </h4>
+                            <a class="nav-link" id="project" href="#" onClick={() => updatePage('Project')}><h4>Project</h4></a>
                         </li>
                         <li class="nav-item">
-                           <h4> <a class="nav-link active" href="#" onClick={() => updatePage('Contact')}>Contact</a></h4>
+                            <a class="nav-link" id="contact" href="#" onClick={() => updatePage('Contact')}><h4>Contact</h4></a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="resume" href="#" onClick={() => updatePage('')}><h4>Resume</h4></a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
+
         </nav>
+
+
     )
 }
 

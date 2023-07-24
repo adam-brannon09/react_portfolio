@@ -3,7 +3,7 @@ body {
   height: 85%;
   margin: 0;
   padding: 0;
-  
+  font-family: 'Roboto Flex', sans-serif;
 }
 .code {
   color: black;
@@ -39,6 +39,8 @@ i {
   height: 15vw;
 }
 
+
+
 .depAppHead{
   color: black;
   font-size: 3rem;
@@ -51,6 +53,12 @@ i {
   font-size: 3rem;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.project-link{
+  font-size: 1.5rem;
+  text-decoration: none;
+  
 }
 
 

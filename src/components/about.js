@@ -6,7 +6,7 @@ function About() {
 
 
     return (
-        <div className="container tiles  ">
+        <div className="container tiles ">
             <section className="row about-container">
                 <aside className="col-4">
                     <img src="./assets/suit3.jpeg" className="img-thumbnail rounded-circle shadow-lg" alt="placeholder"></img>

@@ -12,16 +12,18 @@ import Project from './components/project';
 
 function App() {
 // Logic
+  
   const [currentPage, setCurrentPage] = useState('About');
   function setPage() {
     if (currentPage === 'About') {
-      return <About />;
+      return  <About />;
     } else if (currentPage === 'Project') {
       return <Project />;
     } else if (currentPage === 'Contact') {
       return <Contact />;
     }
   }
+
   return (
     <div className="App">
       <Header setCurrentPage={setCurrentPage} />
