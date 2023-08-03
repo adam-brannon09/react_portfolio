@@ -10,6 +10,7 @@ import Project from './components/project';
 
 
 
+
 function App() {
 // Logic
   
@@ -21,12 +22,12 @@ function App() {
       return <Project />;
     } else if (currentPage === 'Contact') {
       return <Contact />;
-    }
+    } 
   }
 
   return (
     <div className="App">
-      <Header setCurrentPage={setCurrentPage} />
+      <Header setCurrentPage={setCurrentPage} currentPage={currentPage} />
       {setPage()}
       <Footer/>
     </div>

@@ -1,8 +1,9 @@
 import React from "react";
+import resume from "../assets/resume.rtf";
 
 
+function Nav({ updatePage, currentPage }) {
 
-function Nav({ updatePage }) {
 
 
     return (
@@ -17,16 +18,16 @@ function Nav({ updatePage }) {
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" id="about" href="#" onClick={() => updatePage('About')}><h4>About</h4></a>
+                            <a class={currentPage==="About"?"nav-link active":"nav-link"} aria-current="page" id="about" href="#" onClick={() => updatePage('About')}><h4>About</h4></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="project" href="#" onClick={() => updatePage('Project')}><h4>Project</h4></a>
+                            <a class={currentPage==="Project"?"nav-link active":"nav-link"} id="project" href="#" onClick={() => updatePage('Project')}><h4>Project</h4></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="contact" href="#" onClick={() => updatePage('Contact')}><h4>Contact</h4></a>
+                            <a class={currentPage==="Contact"?"nav-link active":"nav-link"} id="contact" href="#" onClick={() => updatePage('Contact')}><h4>Contact</h4></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="resume" href="#" onClick={() => updatePage('')}><h4>Resume</h4></a>
+                            <a class="nav-link" id="resume" href={resume} ><h4>Resume</h4></a>
                         </li>
 
                     </ul>
