@@ -12,12 +12,12 @@ function Project() {
                <code><h2 className="depAppHead">{'{Deployed Applications}'}</h2></code>
                 
                 <div class="card col-4 bg-dark text-light rounded p-2 border border-white">
-                    <a ><img class="card-img-top" src="./assets/passwordGif.gif" alt="Card image cap"></img></a>
+                    <a ><img class="card-img-top" src="./assets/jate-demo.gif" alt="Card image cap"></img></a>
                     <div class="card-body">
-                        <h5 class="card-title">Password Generator</h5>
+                        <h5 class="card-title">J.A.T.E Just Another Text Editor</h5>
                         <br></br>
-                        <button className="btn btn-lg btn-outline-light bg-dark text-light p-2 mx-2"><a className="text-light project-link" href="https://adam-brannon09.github.io/password_generator/" >Deployed App</a></button>
-                        <button className="btn btn-lg btn-outline-light bg-dark p-2 mx-2 "><a class="text-light project-link" href=""><i class="devicon-github-original"></i>To The Repo</a></button>
+                        <button className="btn btn-lg btn-outline-light bg-dark text-light p-2 mx-2"><a className="text-light project-link" href="https://rocky-lake-08346-97f05045468c.herokuapp.com/" >Deployed App</a></button>
+                        <button className="btn btn-lg btn-outline-light bg-dark p-2 mx-2 "><a class="text-light project-link" href="https://github.com/adam-brannon09/PWA_Text_Editor"><i class="devicon-github-original"></i>To The Repo</a></button>
 
                     </div>
                 </div>
@@ -30,17 +30,17 @@ function Project() {
                         <h5 class="card-title">Work Day Scheduler</h5>
                         <br></br>
                         <button className="btn btn-lg btn-outline-light bg-dark text-light p-2 mx-2"><a className="text-light project-link" href="https://adam-brannon09.github.io/work_day_scheduler/" >Deployed App</a></button>
-                        <button className="btn btn-lg btn-outline-light bg-dark p-2 mx-2 "><a class="text-light project-link" href=""><i class="devicon-github-original"></i>To The Repo</a></button>
+                        <button className="btn btn-lg btn-outline-light bg-dark p-2 mx-2 "><a class="text-light project-link" href="https://github.com/adam-brannon09/work_day_scheduler"><i class="devicon-github-original"></i>To The Repo</a></button>
                     </div>
                 </div>
 
                 <div class="card col-4 bg-dark text-light rounded p-2 border border-white">
-                   <a ><img class="card-img-top" src="./assets/codeQuizGif.gif" alt="Card image cap"></img></a>
+                   <a ><img class="card-img-top" src="./assets/google_books.gif" alt="Card image cap"></img></a>
                     <div class="card-body">
-                        <h5 class="card-title">Code Quiz</h5>
+                        <h5 class="card-title">Google Books</h5>
                         <br></br>
-                        <button className="btn btn-lg btn-outline-light bg-dark text-light p-2 mx-2"><a className="text-light project-link" href="https://adam-brannon09.github.io/coding_quiz/" >Deployed App</a></button>
-                        <button className="btn btn-lg btn-outline-light bg-dark p-2 mx-2 "><a class="text-light project-link" href=""><i class="devicon-github-original"></i>To The Repo</a></button>
+                        <button className="btn btn-lg btn-outline-light bg-dark text-light p-2 mx-2"><a className="text-light project-link" href="https://ancient-castle-83069-60b0fc05b9bd.herokuapp.com/" >Deployed App</a></button>
+                        <button className="btn btn-lg btn-outline-light bg-dark p-2 mx-2 "><a class="text-light project-link" href="https://github.com/adam-brannon09/google_books_api"><i class="devicon-github-original"></i>To The Repo</a></button>
                     </div>
                 </div>
 
@@ -56,7 +56,7 @@ function Project() {
                         <h5 class="card-title">Weather Forecast App</h5>
                         <br></br>
                         <button className="btn btn-lg btn-outline-light bg-dark text-light p-2 mx-2"><a className="text-light project-link" href="https://adam-brannon09.github.io/weather_forecast_app/" >Deployed App</a></button>
-                        <button className="btn btn-lg btn-outline-light bg-dark p-2 mx-2 "><a class="text-light project-link" href=""><i class="devicon-github-original"></i>To The Repo</a></button>
+                        <button className="btn btn-lg btn-outline-light bg-dark p-2 mx-2 "><a class="text-light project-link" href="https://github.com/adam-brannon09/weather_forecast_app"><i class="devicon-github-original"></i>To The Repo</a></button>
                     </div>
                 </div>
                 {/* Moody */}
