@@ -8,7 +8,7 @@ function Project() {
     return (
         <div class="container tiles portfolio-container ">
 
-            <div class="row card-deck ">
+            <div class="row card-deck">
                <code><h2 className="depAppHead">{'{Deployed Applications}'}</h2></code>
                 
                 <div class="card col-4 bg-dark text-light rounded p-2 border border-white">
