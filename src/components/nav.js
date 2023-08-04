@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/resume.rtf";
+import resume from "../assets/resume.pdf";
 
 
 function Nav({ updatePage, currentPage }) {
