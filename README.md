@@ -79,7 +79,7 @@ If you encounter any issues while viewing my portfolio or have any suggestions f
 
 ## License
 
-The Google Books API Application is released under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute this application as per the terms of this license.
+My portfolio is released under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute this application as per the terms of this license.
 
 
 <div align="center">
