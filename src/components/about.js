@@ -6,7 +6,7 @@ function About() {
 
 
     return (
-        <div className="container tiles ">
+        <div className="container tiles">
             <section className="row about-container">
                 <aside className="col-4">
                     <img src="./assets/suit3.jpeg" className="img-thumbnail rounded-circle shadow-lg" alt="placeholder"></img>
@@ -29,22 +29,22 @@ function About() {
             </section>
             <section className="row">
                 <span className="aboutIcons">
-                    <i class="devicon-html5-plain-wordmark   "></i>
-                    <i class="devicon-css3-plain-wordmark"></i>
-                    <i class="devicon-bootstrap-plain-wordmark"></i>
-                    <i class="devicon-javascript-plain"></i>
-                    <i class="devicon-nodejs-plain-wordmark"></i>
-                    <i class="devicon-npm-original-wordmark"></i>
-                    <i class="devicon-express-original-wordmark"></i>
-                    <i class="devicon-react-original-wordmark"></i>
-                    <i class="devicon-redux-original"></i>
-                    <i class="devicon-mysql-plain-wordmark"></i>
-                    <i class="devicon-sequelize-plain"></i>
-                    <i class="devicon-mongodb-plain-wordmark"></i>
-                    <i class="devicon-graphql-plain-wordmark"></i>
-                    <i class="devicon-vscode-plain"></i>
-                    <i class="devicon-handlebars-plain-wordmark colored"></i>
-                    <i class="devicon-git-plain"></i>
+                    <i className="devicon-html5-plain-wordmark   "></i>
+                    <i className="devicon-css3-plain-wordmark"></i>
+                    <i className="devicon-bootstrap-plain-wordmark"></i>
+                    <i className="devicon-javascript-plain"></i>
+                    <i className="devicon-nodejs-plain-wordmark"></i>
+                    <i className="devicon-npm-original-wordmark"></i>
+                    <i className="devicon-express-original-wordmark"></i>
+                    <i className="devicon-react-original-wordmark"></i>
+                    <i className="devicon-redux-original"></i>
+                    <i className="devicon-mysql-plain-wordmark"></i>
+                    <i className="devicon-sequelize-plain"></i>
+                    <i className="devicon-mongodb-plain-wordmark"></i>
+                    <i className="devicon-graphql-plain-wordmark"></i>
+                    <i className="devicon-vscode-plain"></i>
+                    <i className="devicon-handlebars-plain-wordmark colored"></i>
+                    <i className="devicon-git-plain"></i>
 
                 </span>
             </section>
